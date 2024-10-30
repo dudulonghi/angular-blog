@@ -1,0 +1,20 @@
+
+@media (max-width: 768px) {
+    .container__small-cards {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .small-card__photo img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .text {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
