@@ -1,9 +1,12 @@
 <div class="container__small-cards">
+    
     <div class="small-card__photo">
         <img src={{photoSmall}} alt="img" srcset="">
     </div>
     <div class="text">
-        <p> {{textDescription}}</p>
+        <a [routerLink] = "['content', Id]"> 
+            <p> {{textDescription}}</p>
+        </a>
     </div>
 </div>
 <hr>
